@@ -1,0 +1,39 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Continent index
+{% endblock %}
+
+{% block body %}    
+<div class = bgc>
+	<br><h1>{% trans %}Liste des Continents {% endtrans %}</h1>   <br>
+	<a href="{{ path('app_continent_new') }}"><button class="btn btn-outline-success">{% trans %}Ajouter un nouveau Continent{% endtrans %}</button></a>
+	<div class="table-wrapper">
+		<table class="fl-table"><br>
+			<thead>
+				<tr>
+					<th>{% trans %}ID Continent{% endtrans %}</th>
+					<th>{% trans %}Nom de Continent{% endtrans %}</th>
+					<th>{% trans %}Actions{% endtrans %}</th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for continent in continents %}
+					<tr>
+						<td>{{ continent.idContinent }}</td>
+						<td>{{ continent.nomContinent }}</td>
+						<td>
+							<a href="{{ path('app_continent_show', {'idContinent': continent.idContinent}) }}"><i class="fa-solid fa-magnifying-glass fa-fade fa-lg" style="color: #370028;"></i></a>
+							<a href="{{ path('app_continent_edit', {'idContinent': continent.idContinent}) }}"><i class="fa-solid fa-pen-to-square fa-lg" style="color: #9e0e40;"></i></a>
+						</td>
+					</tr>
+				{% else %}
+					<tr>
+						<td colspan="3">{% trans %}No records found{% endtrans %}</td>
+					</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+	</div>
+
+	{% endblock %}

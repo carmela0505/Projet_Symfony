@@ -1,0 +1,11 @@
+
+{{ form_start(form) }}  <br>
+     <div class="form-group">
+     {{ form_row(form.nomMarque, {'attr': {'class': 'form-control'}, 'label': 'Nom de la Marque : ' |trans}) }}  <br>
+    
+    {{ form_row(form.idPays, {'attr': {'class': 'form-control'}, 'label': 'Pays : ' |trans }) }} <br>
+    
+    {{ form_row(form.idFabricant, {'attr': {'class': 'form-control'},'label': 'Fabricant : ' |trans}) }}  <br>
+    </div><br>
+   <button class="btn btn-dark">{{ button_label|default('Enregistrer') }}</button>
+{{ form_end(form) }}

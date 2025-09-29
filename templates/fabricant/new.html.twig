@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Fabricant
+{% endblock %}
+
+{% block body %}
+<div class = beer1>
+	<br><br><br><br>
+	<h2>{% trans %}Ajouter un nouvel Fabricant{% endtrans %}</h2>
+	<br><br><br><br>
+	
+		{{ include('fabricant/_form.html.twig') }}
+		<br>
+		<a href="{{ path('app_fabricant_index') }}">
+			<button class="btn btn-info">{% trans %}Retour à la liste{% endtrans %}</button>
+		</a>
+		<br>
+		<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	</div>
+{% endblock %}

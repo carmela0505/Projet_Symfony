@@ -1,0 +1,4 @@
+<form method="post" action="{{ path('app_fabricant_delete', {'idFabricant': fabricant.idFabricant}) }}" onsubmit="return confirm('{% trans %} Souhaitez-vous supprimer ce fabricant?{% endtrans %}'); ">
+    <input type="hidden" name="_token" value="{{ csrf_token('delete' ~ fabricant.idFabricant) }}">
+     <button class="btn btn-danger">{% trans %}Supprimer{% endtrans %}</button>
+</form>

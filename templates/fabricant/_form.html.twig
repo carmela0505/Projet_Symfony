@@ -1,0 +1,6 @@
+<br>{{ form_start(form) }}  <br>
+      <div class="form-group">
+        {{ form_row(form.nomFabricant, {'attr': {'class': 'form-control'}, 'label': 'Nom de fabricant :'|trans}) }}
+    </div> <br> 
+   <button class="btn btn-dark">{{ button_label|default('Enregistrer'|trans) }}</button>
+{{ form_end(form) }}

@@ -1,0 +1,50 @@
+{% extends 'base.html.twig' %}   
+
+{% block title %}SDBM Articles   
+{% endblock %}
+
+{% block body %}  
+<div class = bg>
+	<h1>{% trans %}Liste des Articles{% endtrans %}</h1>   <br>
+	<a class="btn btn-outline-success" role="button" href="{{ path('app_article_new') }}">{% trans %}Ajouter un nouvel Article{% endtrans %}</a>
+	<div class="table-wrapper">
+    <table class="fl-table">
+		<thead>
+			<tr>
+				<th>{% trans %}ID{% endtrans %}</th>
+				<th>{% trans %}Article{% endtrans %}</th>
+				<th>{% trans %}Prix d'Achat{% endtrans %}</th>
+				<th>{% trans %}Volume{% endtrans %}</th>
+				<th>{% trans %}Titrage{% endtrans %}</th>
+				<th>{% trans %}Couleur{% endtrans %}</th>
+				<th>{% trans %}Marque{% endtrans %}</th>
+				<th>{% trans %}Type{% endtrans %}</th>
+				<th>{% trans %}Actions{% endtrans %}</th>
+			</tr>
+		</thead>
+		<tbody>
+			{% for article in articles %}        
+				<tr>
+					<td>{{ article.idArticle }}</td>
+					<td>{{ article.nomArticle }}</td>
+					<td>{{ article.prixAchat }}</td>
+					<td>{{ article.volume }}</td>
+					<td>{{ article.titrage }}</td>
+					<td>{{ article.getNomCouleur }}</td>
+					<td>{{ article.getNomMarque}}</td>
+					<td>{{ article.getNomType }}</td>
+					<td>
+						<a href="{{ path('app_article_show', {'idArticle': article.idArticle}) }}"><i class="fa-solid fa-magnifying-glass fa-fade fa-lg" style="color: #370028;"></i></a>
+						<a href="{{ path('app_article_edit', {'idArticle': article.idArticle}) }}"><i class="fa-solid fa-pen-to-square fa-lg" style="color: #9e0e40;"></i></a>
+					</td>
+				</tr>
+			{% else %}
+				<tr>
+					<td colspan="6">{% trans %}no records found{% endtrans %}</td>
+				</tr>   
+			{% endfor %}
+		</tbody>
+	</table>  
+</div>  <br>
+</div>
+{% endblock %}

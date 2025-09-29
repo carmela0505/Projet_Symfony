@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Fabricant index{% endblock %}
+
+{% block body %}
+<div class = bgc>
+ <br>   <h2>{% trans %}Liste des Fabricants{% endtrans %}</h2>   <br>
+ <a href="{{ path('app_fabricant_new') }}"><button class="btn btn-outline-success">{% trans %}Ajouter un nouvel fabricant{% endtrans %}</button></a>  <br>  
+    <div class="table-wrapper">
+    <table class="fl-table">    
+        <thead>
+            <tr>
+                <th>{% trans %}ID{% endtrans %}</th>
+                <th>{% trans %}Nom de Fabricant{% endtrans %}</th>
+                <th>{% trans %}Actions{% endtrans %}</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for fabricant in fabricants %}
+            <tr>
+                <td>{{ fabricant.idFabricant }}</td>
+                <td>{{ fabricant.nomFabricant }}</td>
+                <td>
+                    <a href="{{ path('app_fabricant_show', {'idFabricant': fabricant.idFabricant}) }}"><i class="fa-solid fa-magnifying-glass fa-fade fa-lg" style="color: #370028;"></i></a>
+                    <a href="{{ path('app_fabricant_edit', {'idFabricant': fabricant.idFabricant}) }}"><i class="fa-solid fa-pen-to-square fa-lg" style="color: #9e0e40;"></i></a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="3">{% trans %}No records found{% endtrans %}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+</div>
+   </div>
+{% endblock %}

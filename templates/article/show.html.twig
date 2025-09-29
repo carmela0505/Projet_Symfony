@@ -1,0 +1,64 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Article
+{% endblock %}
+
+{% block body %}
+<div class= beer3>
+	<br><br><h2>{% trans %}Information sur la bière{% endtrans %}</h2><br><br><br>
+	<div class="table-wrapper">	
+		<table class="fl-table">
+					<tbody>
+				<tr>
+					<th>{% trans %}ID{% endtrans %}</th>
+					<td>{{ article.idArticle }}</td>
+				</tr>
+				<tr>
+					<th>{% trans %}Nom de l'article{% endtrans %}</th>
+					<td>{{ article.nomArticle }}</td>
+				</tr>
+				<tr>
+					<th>{% trans %}Prix d'achat{% endtrans %}</th>
+					<td>{{ article.prixAchat }}</td>
+				</tr>
+				<tr>
+					<th>{% trans %}Volume{% endtrans %}</th>
+					<td>{{ article.volume }}</td>
+				</tr>
+				<tr>
+					<th>{% trans %}Titrage{% endtrans %}</th>
+					<td>{{ article.titrage }}</td>
+				</tr>
+				<tr>
+					<th>{% trans %}Couleur{% endtrans %}</th>
+					<td>{{ article.getNomCouleur }}</td>
+				</tr>
+				<tr>
+					<th>{% trans %}Marque{% endtrans %}</th>
+					<td>{{ article.getNomMarque }}</td>
+				</tr>
+				<tr>
+					<th>{% trans %}Type{% endtrans %}</th>
+					<td>{{ article.getNomType }}</td>
+				</tr>
+			</tbody>
+		</table>
+		</div>
+		
+		<br>
+		<a href="{{ path('app_article_index') }}">
+			<button class="btn btn-info">{% trans %}Retour à la liste{% endtrans %}</button>
+		</a>
+		<br>
+		<br>
+
+		<a href="{{ path('app_article_edit', {'idArticle': article.idArticle}) }}">
+			<button class="btn btn-secondary">{% trans %}Modification{% endtrans %}</button>
+		</a>
+		<br>
+		<br>
+
+		{{ include('article/_delete_form.html.twig') }}
+		<br><br>
+		</div>
+	{% endblock %}

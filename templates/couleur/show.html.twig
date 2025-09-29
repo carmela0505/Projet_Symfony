@@ -1,0 +1,36 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Couleur{% endblock %}
+
+{% block body %}   <br>
+<div class= beer3>
+<br><br><br>
+    <h2>{% trans %}Details des Couleurs{% endtrans %}</h2>  <br> <br><br>
+<div class="table-wrapper">
+		<table class="fl-table">
+        <tbody>
+            <tr>
+                <th>{% trans %}ID{% endtrans %}</th>
+                <td>{{ couleur.idCouleur }}</td>
+            </tr>
+            <tr>
+                <th>{% trans %}Nom de Couleur{% endtrans %}</th>
+                <td>{{ couleur.nomCouleur }}</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+<br>
+    <a href="{{ path('app_couleur_index') }}">
+        <button class="btn btn-info">{% trans %}Retour à la liste{% endtrans %}</button>
+    </a>   <br>
+<br>
+    <a href="{{ path('app_couleur_edit', {'idCouleur': couleur.idCouleur}) }}">
+        <button class="btn btn-secondary">{% trans %}Modification{% endtrans %}</button>
+    </a>   <br>
+<br>
+
+    {{ include('couleur/_delete_form.html.twig') }}
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+{% endblock %}

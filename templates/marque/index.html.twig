@@ -1,0 +1,42 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Marque index{% endblock %}
+
+{% block body %}
+<div class = bg>
+  <br> <br> <h2>{% trans %}Liste des Marques{% endtrans %}</h2>  <br>
+<a href="{{ path('app_marque_new') }}"><button class="btn btn-outline-success">  {% trans %}Ajouter une nouvelle Marque{% endtrans %}</button></a>  <br>
+<div class="table-wrapper">
+   <table class="fl-table">   <br>
+ 
+        <thead>
+            <tr>
+                <th>{% trans %}ID{% endtrans %}</th>
+                <th>{% trans %}Nom de la Marque{% endtrans %}</th>
+                <th>{% trans %}Pays{% endtrans %}</th>
+                <th>{% trans %}Fabricant{% endtrans %}</th>
+                  <th>{% trans %}Actions{% endtrans %}</th>
+            </tr>
+        </thead>
+        <tbody>
+        {% for marque in marques %}
+            <tr>
+                <td>{{ marque.idMarque }}</td>
+                <td>{{ marque.nomMarque }}</td>
+                <td>{{ marque.getNomPays }}</td>
+                <td>{{ marque.getNomFabricant }}</td>
+                <td>
+                    <a href="{{ path('app_marque_show', {'idMarque': marque.idMarque}) }}"><i class="fa-solid fa-magnifying-glass fa-fade fa-lg" style="color: #370028;"></i></a>
+                    <a href="{{ path('app_marque_edit', {'idMarque': marque.idMarque}) }}"><i class="fa-solid fa-pen-to-square fa-lg" style="color: #9e0e40;"></i></a>
+                </td>
+            </tr>
+        {% else %}
+            <tr>
+                <td colspan="3">{% trans %}No records found{% endtrans %}</td>
+            </tr>
+        {% endfor %}
+        </tbody>
+   </table>  
+</div> <br>
+ </div>   
+{% endblock %}

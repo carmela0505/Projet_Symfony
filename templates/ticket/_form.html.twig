@@ -1,0 +1,12 @@
+{{ form_start(form) }}
+ 
+ <div class="form-group">
+ {{ form_row(form.annee, {'attr': {'class': 'form-control'}, 'label': 'Annee :'|trans}) }}   <br>
+    
+    {{ form_row(form.numeroTicket,  {'attr': {'class': 'form-control'}, 'label': 'Numero de Ticket'}) }} <br>
+
+     {{ form_row(form.dateVente,  {'attr': {'class': 'form-control'}, 'label': 'date de Vente'}) }} <br>
+    </div><br>
+
+   <button class="btn btn-dark">{{ button_label|default('Enregistrer') }}</button>
+{{ form_end(form) }}

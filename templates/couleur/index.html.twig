@@ -1,0 +1,42 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Couleur index
+{% endblock %}
+
+{% block body %}
+	
+<div class = bgc>
+<br> <br>
+		<h1>{% trans %}Liste des Couleurs{% endtrans %}</h1>   <br>
+		<a href="{{ path('app_couleur_new') }}"><button class="btn btn-outline-success">{% trans %}Ajouter une nouvelle Couleur{% endtrans %}</button></a>  
+		<div class="table-wrapper">
+			<table class="fl-table">  <br>
+				<thead>
+					<tr>
+						<th>{% trans %}ID{% endtrans %}</th>
+						<th>{% trans %}Nom de Couleur{% endtrans %}</th>
+						<th>{% trans %}Actions{% endtrans %}</th>
+					</tr>
+				</thead>
+				<tbody>
+					{% for couleur in couleurs %}
+						<tr>
+							<td>{{ couleur.idCouleur }}</td>
+							<td>{{ couleur.nomCouleur }}</td>
+							<td>
+								<a href="{{ path('app_couleur_show', {'idCouleur': couleur.idCouleur}) }}"><i class="fa-solid fa-magnifying-glass fa-fade fa-lg" style="color: #370028;"></i></a>
+								<a href="{{ path('app_couleur_edit', {'idCouleur': couleur.idCouleur}) }}"><i class="fa-solid fa-pen-to-square fa-lg" style="color: #9e0e40;"></i></a>
+							</td>
+						</tr>
+					{% else %}
+						<tr>
+							<td colspan="3">{% trans %}No records found{% endtrans %}</td>
+						</tr>
+					{% endfor %}
+				</tbody>
+			</table>
+</div>
+</div>
+		</body>
+	{% endblock %}
+

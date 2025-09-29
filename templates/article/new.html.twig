@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Article
+{% endblock %}
+
+{% block body %}
+	<div class = beer1>
+	<br><br><br>
+	<h2>{% trans %}Ajouter un nouvel Article{% endtrans %}</h2>
+	<br>	
+		<br>
+		{{ include('article/_form.html.twig') }}
+
+		<a  class="btn btn-info" href="{{ path('app_article_index') }}">
+			{% trans %}Retour à la liste{% endtrans %}
+		</a>
+		<br>
+		<br><br><br><br><br><br><br><br>
+	</div>
+	
+{% endblock %}

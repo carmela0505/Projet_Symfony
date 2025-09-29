@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="en" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id=".nU._5u" resname="Pays">
+        <source>Pays</source>
+        <target>Country</target>
+      </trans-unit>
+      <trans-unit id="RVByChh" resname="Couleur">
+        <source>Couleur</source>
+        <target>Color</target>
+      </trans-unit>
+      <trans-unit id="FpBnz2q" resname="Fabricant">
+        <source>Fabricant</source>
+        <target>Manufacturer</target>
+      </trans-unit>
+      <trans-unit id="7ldFVIs" resname="Marque">
+        <source>Marque</source>
+        <target>Brand</target>
+      </trans-unit>
+      <trans-unit id="3mzcCLD" resname="Type Biere">
+        <source>Type Biere</source>
+        <target>Beer type</target>
+      </trans-unit>
+      <trans-unit id="LSWfCb9" resname="Langues">
+        <source>Langues</source>
+        <target>Languages</target>
+      </trans-unit>
+      <trans-unit id="tLbZmc2" resname="IdCouleur">
+        <source>IdCouleur</source>
+        <target>Color ID</target>
+      </trans-unit>
+      <trans-unit id="cAWNDLc" resname="NomCouleur">
+        <source>NomCouleur</source>
+        <target>Color name</target>
+      </trans-unit>
+      <trans-unit id="E_MdMhQ" resname="IdArticle">
+        <source>IdArticle</source>
+        <target>Article ID</target>
+      </trans-unit>
+      <trans-unit id="vRPV6y0" resname="NomArticle">
+        <source>NomArticle</source>
+        <target>Article name</target>
+      </trans-unit>
+      <trans-unit id="h7kEVq2" resname="PrixAchat">
+        <source>PrixAchat</source>
+        <target>Purchased Price</target>
+      </trans-unit>
+      <trans-unit id="sQ_5Ztc" resname="Volume">
+        <source>Volume</source>
+        <target>Volume</target>
+      </trans-unit>
+      <trans-unit id="VBQWthX" resname="Titrage">
+        <source>Titrage</source>
+        <target>Alcohol Content</target>
+      </trans-unit>
+      <trans-unit id="QLeNDdM" resname="Retour à la liste">
+        <source>Retour à la liste</source>
+        <target>Back to the list</target>
+      </trans-unit>
+      <trans-unit id="RkxP.QG" resname="Edit">
+        <source>Edit</source>
+        <target>Modification</target>
+      </trans-unit>
+      <trans-unit id="70VHB2F" resname="Id Couleur">
+        <source>Id Couleur</source>
+        <target>Color ID</target>
+      </trans-unit>
+      <trans-unit id="FdW2Iiv" resname="Nom Couleur">
+        <source>Nom Couleur</source>
+        <target>Color name</target>
+      </trans-unit>
+      <trans-unit id="CZtZImO" resname="Continent">
+        <source>Continent</source>
+        <target>Continent</target>
+      </trans-unit>
+      <trans-unit id="qaeCoSj" resname="Edit Article">
+        <source>Edit Article</source>
+        <target>Modify the article</target>
+      </trans-unit>
+      <trans-unit id="ujPb9xD" resname="Nouvel Article">
+        <source>Nouvel Article</source>
+        <target>New article</target>
+      </trans-unit>
+      <trans-unit id="OEOXHc." resname="ID">
+        <source>ID</source>
+        <target>ID</target>
+      </trans-unit>
+      <trans-unit id="KdlJIlE" resname="Article">
+        <source>Article</source>
+        <target>Article</target>
+      </trans-unit>
+      <trans-unit id="NQ8IUQd" resname="Prix d'Achat">
+        <source>Prix d'Achat</source>
+        <target>Purchased price</target>
+      </trans-unit>
+      <trans-unit id="uq3fcPt" resname="Type">
+        <source>Type</source>
+        <target>Type</target>
+      </trans-unit>
+      <trans-unit id=".4BZ3Gd" resname="Actions">
+        <source>Actions</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit id="qIOz6RE" resname="Nom Article">
+        <source>Nom Article</source>
+        <target>Article name</target>
+      </trans-unit>
+      <trans-unit id="3OMG0yM" resname="Prix achat">
+        <source>Prix achat</source>
+        <target>Purchased price</target>
+      </trans-unit>
+      <trans-unit id="0hfYaI2" resname="Liste des Articles">
+        <source>Liste des Articles</source>
+        <target>List of Articles</target>
+      </trans-unit>
+      <trans-unit id="D5lam8." resname="no records found">
+        <source>no records found</source>
+        <target>No records found</target>
+      </trans-unit>
+      <trans-unit id="d2CR9yJ" resname="Ajouter un nouvel Article">
+        <source>Ajouter un nouvel Article</source>
+        <target>Add a new article</target>
+      </trans-unit>
+      <trans-unit id="pu261OZ" resname="Edit Continent">
+        <source>Edit Continent</source>
+        <target>Modify the continent</target>
+      </trans-unit>
+      <trans-unit id="U0M9PNE" resname="back to list">
+        <source>back to list</source>
+        <target>Back to list</target>
+      </trans-unit>
+      <trans-unit id="NfB_iiZ" resname="Ajout">
+        <source>Ajout</source>
+        <target>Create new</target>
+      </trans-unit>
+      <trans-unit id="nVDikTc" resname="IdContinent">
+        <source>IdContinent</source>
+        <target>Continent ID</target>
+      </trans-unit>
+      <trans-unit id="Ahs_Ruj" resname="NomContinent">
+        <source>NomContinent</source>
+        <target>Continent name </target>
+      </trans-unit>
+      <trans-unit id="K8tDy8j" resname="view">
+        <source>view</source>
+        <target>Show</target>
+      </trans-unit>
+      <trans-unit id="aBLWcFV" resname="Create new Continent">
+        <source>Create new Continent</source>
+        <target>Create a new continent</target>
+      </trans-unit>
+      <trans-unit id="hyaOmoq" resname="Edit Couleur">
+        <source>Edit Couleur</source>
+        <target>Modify the Color </target>
+      </trans-unit>
+      <trans-unit id="UgC3b3l" resname="Create new Couleur">
+        <source>Create new Couleur</source>
+        <target>Create new color</target>
+      </trans-unit>
+      <trans-unit id="WF.qa3h" resname="Edit Fabricant">
+        <source>Edit Fabricant</source>
+        <target>Modify the Manufacturer</target>
+      </trans-unit>
+      <trans-unit id="CiHALPL" resname="IdFabricant">
+        <source>IdFabricant</source>
+        <target>Manufcaturer ID</target>
+      </trans-unit>
+      <trans-unit id="v2oslAm" resname="NomFabricant">
+        <source>NomFabricant</source>
+        <target>Manufacturer's name</target>
+      </trans-unit>
+      <trans-unit id=".lKdykc" resname="Create new Fabricant">
+        <source>Create new Fabricant</source>
+        <target>Create new manufacturer</target>
+      </trans-unit>
+      <trans-unit id="Xl0CFs4" resname="Supprimer">
+        <source>Supprimer</source>
+        <target>Delete</target>
+      </trans-unit>
+      <trans-unit id="XnPQSsB" resname="Ajout d'une marque">
+        <source>Ajout d'une marque</source>
+        <target>Create a new brand</target>
+      </trans-unit>
+      <trans-unit id="nc5Ii9c" resname="IdMarque">
+        <source>IdMarque</source>
+        <target>Brand ID</target>
+      </trans-unit>
+      <trans-unit id="hmfSQrH" resname="NomMarque">
+        <source>NomMarque</source>
+        <target>Brand name</target>
+      </trans-unit>
+      <trans-unit id="CrtfUSR" resname="Edit Pays">
+        <source>Edit Pays</source>
+        <target>Modify the country</target>
+      </trans-unit>
+      <trans-unit id="X2dhpD4" resname="Ajout d'un Pays">
+        <source>Ajout d'un Pays</source>
+        <target>Create new Country</target>
+      </trans-unit>
+      <trans-unit id="YIFBONK" resname="IdPays">
+        <source>IdPays</source>
+        <target>Country ID</target>
+      </trans-unit>
+      <trans-unit id="oXyoWKF" resname="NomPays">
+        <source>NomPays</source>
+        <target>Country name</target>
+      </trans-unit>
+      <trans-unit id="6nEDAg6" resname="Edit Type de biere">
+        <source>Edit Type de biere</source>
+        <target>Modify the beer type</target>
+      </trans-unit>
+      <trans-unit id="kvzKJAU" resname="IdType">
+        <source>IdType</source>
+        <target>Beer Type ID</target>
+      </trans-unit>
+      <trans-unit id="nWjJkVQ" resname="NomType">
+        <source>NomType</source>
+        <target>Name of the beer type</target>
+      </trans-unit>
+      <trans-unit id="gplyuMq" resname="Ajouter une Type de biere">
+        <source>Ajouter une Type de biere</source>
+        <target>Add a beer type</target>
+      </trans-unit>
+      <trans-unit id="yQ87f68" resname="Edit Marque">
+        <source>Edit Marque</source>
+        <target>Modification of the brand</target>
+      </trans-unit>
+      <trans-unit id="61PaA.e" resname="Nom Marque">
+        <source>Nom Marque</source>
+        <target>Brand name</target>
+      </trans-unit>
+      <trans-unit id="iqcInK2" resname="Marques">
+        <source>Marques</source>
+        <target>Brands</target>
+      </trans-unit>
+      <trans-unit id="bi6mN7M" resname="No records found">
+        <source>No records found</source>
+        <target>No records found</target>
+      </trans-unit>
+      <trans-unit id="UzFhc1Y" resname="Accueil">
+        <source>Accueil</source>
+        <target>Home Page</target>
+      </trans-unit>
+      <trans-unit id="_18n1UV" resname="Detail">
+        <source>Detail</source>
+        <target>Beer Qualities</target>
+      </trans-unit>
+      <trans-unit id="pzwCRbI" resname="Nom de l'Article:">
+        <source>Nom de l'Article:</source>
+        <target>Article Name : </target>
+      </trans-unit>
+      <trans-unit id="yuwVB6_" resname="Prix d'achat :">
+        <source>Prix d'achat :</source>
+        <target>Purchased price :</target>
+      </trans-unit>
+      <trans-unit id="fuJ89RU" resname="Volume :">
+        <source>Volume :</source>
+        <target>Volume :</target>
+      </trans-unit>
+      <trans-unit id="o7h6n7P" resname="Percentage :">
+        <source>Percentage :</source>
+        <target>Percentage :</target>
+      </trans-unit>
+      <trans-unit id="L7LEjEI" resname="Marque :">
+        <source>Marque :</source>
+        <target>Brand :</target>
+      </trans-unit>
+      <trans-unit id="i4RfrlG" resname="Couleur :">
+        <source>Couleur :</source>
+        <target>Color :</target>
+      </trans-unit>
+      <trans-unit id="h_f1tg5" resname="Type :">
+        <source>Type :</source>
+        <target>Type :</target>
+      </trans-unit>
+      <trans-unit id="LZ_HyU3" resname="Qualités">
+        <source>Qualités</source>
+        <target>Beer Qualities</target>
+      </trans-unit>
+      <trans-unit id="XYXxTjj" resname="Modification de l'Article">
+        <source>Modification de l'Article</source>
+        <target>Modify Articles</target>
+      </trans-unit>
+      <trans-unit id="Winosux" resname="Nom de l'article:">
+        <source>Nom de l'article:</source>
+        <target>Article name:</target>
+      </trans-unit>
+      <trans-unit id="GIThZ9O" resname="Titrage :">
+        <source>Titrage :</source>
+        <target>Percentage :</target>
+      </trans-unit>
+      <trans-unit id="eqoG1WC" resname="Type de bière :">
+        <source>Type de bière :</source>
+        <target>Beer type :</target>
+      </trans-unit>
+      <trans-unit id="CiinI8h" resname="Information de l'Article">
+        <source>Information de l'Article</source>
+        <target>Article Details</target>
+      </trans-unit>
+      <trans-unit id="_WtF8Tu" resname="Nom de l'article">
+        <source>Nom de l'article</source>
+        <target>Article Name</target>
+      </trans-unit>
+      <trans-unit id="ZBbbbF2" resname="Prix d'achat">
+        <source>Prix d'achat</source>
+        <target>Purchased Price</target>
+      </trans-unit>
+      <trans-unit id="RoibQ7y" resname="Modification">
+        <source>Modification</source>
+        <target>Modification</target>
+      </trans-unit>
+      <trans-unit id="CMNv4iV" resname="Nom de l'article :">
+        <source>Nom de l'article :</source>
+        <target>Article name :</target>
+      </trans-unit>
+      <trans-unit id="iLbXNZf" resname="Modification de Continent">
+        <source>Modification de Continent</source>
+        <target>Modify the continent</target>
+      </trans-unit>
+      <trans-unit id="qdQGxuz" resname="Ajouter un nouveau Continent">
+        <source>Ajouter un nouveau Continent</source>
+        <target>Add a new continent</target>
+      </trans-unit>
+      <trans-unit id="g0RIDsI" resname="ID Continent">
+        <source>ID Continent</source>
+        <target>Continent ID</target>
+      </trans-unit>
+      <trans-unit id="JqKrn0w" resname="Nom de Continent">
+        <source>Nom de Continent</source>
+        <target>Continent Name</target>
+      </trans-unit>
+      <trans-unit id="7J.4hFC" resname="Ajouter un nouvel continent">
+        <source>Ajouter un nouvel continent</source>
+        <target>Add a new continent</target>
+      </trans-unit>
+      <trans-unit id="J7sqV.T" resname="Continent :">
+        <source>Continent :</source>
+        <target>Continent :</target>
+      </trans-unit>
+      <trans-unit id="vTKzZRC" resname="Modification de Couleur">
+        <source>Modification de Couleur</source>
+        <target>Couleur modification</target>
+      </trans-unit>
+      <trans-unit id="0z1TKWZ" resname="Ajouter une nouvelle Couleur">
+        <source>Ajouter une nouvelle Couleur</source>
+        <target>Add a new Color</target>
+      </trans-unit>
+      <trans-unit id="Jj53Wg0" resname="Nom de Couleur">
+        <source>Nom de Couleur</source>
+        <target>Color</target>
+      </trans-unit>
+      <trans-unit id="vXF2yRO" resname="Ajouter un nouvel couleur">
+        <source>Ajouter un nouvel couleur</source>
+        <target>Add a new color</target>
+      </trans-unit>
+      <trans-unit id="_ZQBDxu" resname="Details des Couleurs">
+        <source>Details des Couleurs</source>
+        <target>Color details</target>
+      </trans-unit>
+      <trans-unit id="h5Hrcyj" resname="Retour à la Liste">
+        <source>Retour à la Liste</source>
+        <target>Back to the list</target>
+      </trans-unit>
+      <trans-unit id="7p5PyZK" resname="Modification de Fabricant">
+        <source>Modification de Fabricant</source>
+        <target>Modify the Manufacturer </target>
+      </trans-unit>
+      <trans-unit id="xmkA0nf" resname="Ajouter un nouveau Fabricant">
+        <source>Ajouter un nouveau Fabricant</source>
+        <target>Add a new manufacturer</target>
+      </trans-unit>
+      <trans-unit id="_WYbBzN" resname="Nom de Fabricant">
+        <source>Nom de Fabricant</source>
+        <target>Manufacturer's name</target>
+      </trans-unit>
+      <trans-unit id="okpFHCH" resname="Ajouter un nouvel Fabricant">
+        <source>Ajouter un nouvel Fabricant</source>
+        <target>Add a new manufacturer</target>
+      </trans-unit>
+      <trans-unit id="_nmzaxH" resname="Modification de la Marque">
+        <source>Modification de la Marque</source>
+        <target>Modify the brand</target>
+      </trans-unit>
+      <trans-unit id="qidOUWH" resname="Ajouter une nouvelle Marque">
+        <source>Ajouter une nouvelle Marque</source>
+        <target>Add a new brand</target>
+      </trans-unit>
+      <trans-unit id="2Lp26Up" resname="Nom de la Marque">
+        <source>Nom de la Marque</source>
+        <target>Brand's  name</target>
+      </trans-unit>
+      <trans-unit id="LTvV1Bd" resname="Ajouter une nouvelle marque">
+        <source>Ajouter une nouvelle marque</source>
+        <target>Add a new brand</target>
+      </trans-unit>
+      <trans-unit id="mpeujOh" resname="Nom de Marque :">
+        <source>Nom de Marque :</source>
+        <target>Brand name :</target>
+      </trans-unit>
+      <trans-unit id="uz9glcw" resname="Pays :">
+        <source>Pays :</source>
+        <target>Country :</target>
+      </trans-unit>
+      <trans-unit id="tjigWAH" resname="Fabricant :">
+        <source>Fabricant :</source>
+        <target>Manufacturer :</target>
+      </trans-unit>
+      <trans-unit id="yWpGEmV" resname="Modification de Pays">
+        <source>Modification de Pays</source>
+        <target>Modify the country</target>
+      </trans-unit>
+      <trans-unit id="JNRXmeT" resname="Ajouter un nouveau pays">
+        <source>Ajouter un nouveau pays</source>
+        <target>Add a new country</target>
+      </trans-unit>
+      <trans-unit id="gkAGgN8" resname="Nom de Pays">
+        <source>Nom de Pays</source>
+        <target>Country name</target>
+      </trans-unit>
+      <trans-unit id="zr.JhR3" resname="Ajouter un nouvel pays">
+        <source>Ajouter un nouvel pays</source>
+        <target>Add a new country</target>
+      </trans-unit>
+      <trans-unit id="LmDD5Xt" resname="Ajouter un nouveau Ticket">
+        <source>Ajouter un nouveau Ticket</source>
+        <target>Add a new ticket</target>
+      </trans-unit>
+      <trans-unit id="tNGKzsb" resname="Modification de la type de biere">
+        <source>Modification de la type de biere</source>
+        <target>Modify the type of beer</target>
+      </trans-unit>
+      <trans-unit id="ZC9AFin" resname="Ajouter une nouvelle type de bière">
+        <source>Ajouter une nouvelle type de bière</source>
+        <target>Add a new type of beer</target>
+      </trans-unit>
+      <trans-unit id="0.3qPML" resname="Nom de la Type de bière">
+        <source>Nom de la Type de bière</source>
+        <target>Name of beer type</target>
+      </trans-unit>
+      <trans-unit id="aOH1X4M" resname="Nom de la type de bière">
+        <source>Nom de la type de bière</source>
+        <target>Name of beer type</target>
+      </trans-unit>
+      <trans-unit id="IyHpT4B" resname="Ajouter une nouvelle couleur">
+        <source>Ajouter une nouvelle couleur</source>
+        <target>Add a new color</target>
+      </trans-unit>
+      <trans-unit id="KrMk8Zb" resname="Nom de couleur :">
+        <source>Nom de couleur :</source>
+        <target>Color name :</target>
+      </trans-unit>
+      <trans-unit id="RdR4D5i" resname="Nom de fabricant :">
+        <source>Nom de fabricant :</source>
+        <target>Manufacturer name</target>
+      </trans-unit>
+      <trans-unit id="ScfVQue" resname="Liste des Marques">
+        <source>Liste des Marques</source>
+        <target>Brand list</target>
+      </trans-unit>
+      <trans-unit id="fjDGK8s" resname="Liste des Pays">
+        <source>Liste des Pays</source>
+        <target>Country list</target>
+      </trans-unit>
+      <trans-unit id="4S4ac06" resname="Ajouter une type de biere">
+        <source>Ajouter une type de biere</source>
+        <target>Add a beer type</target>
+      </trans-unit>
+      <trans-unit id="PRMTaLQ" resname="Tickets">
+        <source>Tickets</source>
+        <target>Receipts</target>
+      </trans-unit>
+      <trans-unit id="cdx0hz4" resname="Enregistrer">
+        <source>Enregistrer</source>
+        <target>Save</target>
+      </trans-unit>
+      <trans-unit id="XWWIfso" resname="Nom de Continent :">
+        <source>Nom de Continent :</source>
+        <target>Continent name :</target>
+      </trans-unit>
+      <trans-unit id="OtBWflS" resname="Ajouter un nouvel fabricant">
+        <source>Ajouter un nouvel fabricant</source>
+        <target>Add a new manufacturer</target>
+      </trans-unit>
+      <trans-unit id="oA7mRT0" resname="Nom de la Marque :">
+        <source>Nom de la Marque :</source>
+        <target>Brand name :</target>
+      </trans-unit>
+      <trans-unit id="dYjZgVs" resname="Nom de Pays :">
+        <source>Nom de Pays :</source>
+        <target>Country name :</target>
+      </trans-unit>
+      <trans-unit id="GXtKYbg" resname="Annee :">
+        <source>Annee :</source>
+        <target>Year :</target>
+      </trans-unit>
+      <trans-unit id="oJJJGxY" resname="L'Article a bien été ajouté !">
+        <source>L'Article a bien été ajouté !</source>
+        <target>The Article was added !</target>
+      </trans-unit>
+      <trans-unit id="5JXVO5Z" resname="Français">
+        <source>Français</source>
+        <target>French</target>
+      </trans-unit>
+      <trans-unit id="VTZ47tP" resname="Anglais">
+        <source>Anglais</source>
+        <target>English</target>
+      </trans-unit>
+      <trans-unit id="jhSHbo0" resname="L'Article a bien été modifié !">
+        <source>L'Article a bien été modifié !</source>
+        <target>The article has been modified !</target>
+      </trans-unit>
+      <trans-unit id="whismy5" resname="L'Article a bien été supprimé !">
+        <source>L'Article a bien été supprimé !</source>
+        <target>The article has been deleted !</target>
+      </trans-unit>
+      <trans-unit id="Yae3ywC" resname="Le Continent a bien été ajouté !">
+        <source>Le Continent a bien été ajouté !</source>
+        <target>The Continent had been added !</target>
+      </trans-unit>
+      <trans-unit id="D0fD.lf" resname="Le Continent a bien été modifié !">
+        <source>Le Continent a bien été modifié !</source>
+        <target>The Continent had been modified !</target>
+      </trans-unit>
+      <trans-unit id="BP0Jx6d" resname="Le Continent a bien été supprimé !">
+        <source>Le Continent a bien été supprimé !</source>
+        <target>The Continent had been deleted !</target>
+      </trans-unit>
+      <trans-unit id="KsfWcez" resname="Le Fabricant a bien été ajouté !">
+        <source>Le Fabricant a bien été ajouté !</source>
+        <target>The Manufacturer had been added !</target>
+      </trans-unit>
+      <trans-unit id="IA8px_7" resname="Le Fabricant a bien été modifié !">
+        <source>Le Fabricant a bien été modifié !</source>
+        <target>The Manufacturer had been modified !</target>
+      </trans-unit>
+      <trans-unit id="7zb.eru" resname="Le Fabricant a bien été supprimé !">
+        <source>Le Fabricant a bien été supprimé !</source>
+        <target>The Manufacturer had been deleted !</target>
+      </trans-unit>
+      <trans-unit id="73YJN6b" resname="La Marque a bien été ajoutée !">
+        <source>La Marque a bien été ajoutée !</source>
+        <target>The Brand had been added !</target>
+      </trans-unit>
+      <trans-unit id="Z3.14.f" resname="La Marque a bien été modifiée !">
+        <source>La Marque a bien été modifiée !</source>
+        <target>The Brand had been modified !</target>
+      </trans-unit>
+      <trans-unit id="CM_c5yS" resname="La Marque a bien été supprimée !">
+        <source>La Marque a bien été supprimée !</source>
+        <target>The Brand had been deleted !</target>
+      </trans-unit>
+      <trans-unit id="yjh71AR" resname="Le Pays a bien été ajouté !">
+        <source>Le Pays a bien été ajouté !</source>
+        <target>The Country had been added !</target>
+      </trans-unit>
+      <trans-unit id="w2fJ2s_" resname="Le Pays a bien été modifié !">
+        <source>Le Pays a bien été modifié !</source>
+        <target>The Country had been modified !</target>
+      </trans-unit>
+      <trans-unit id="MOAe86u" resname="Le Pays a bien été supprimé !">
+        <source>Le Pays a bien été supprimé !</source>
+        <target>The Country had been deleted !</target>
+      </trans-unit>
+      <trans-unit id="CeSsWJR" resname="Le Type de bière a bien été ajouté !">
+        <source>Le Type de bière a bien été ajouté !</source>
+        <target>A new type of beer had been added !</target>
+      </trans-unit>
+      <trans-unit id="iZ5NAaR" resname="Le Type de bière a bien été modifié !">
+        <source>Le Type de bière a bien été modifié !</source>
+        <target>The Beer type had been modified !</target>
+      </trans-unit>
+      <trans-unit id="sbSMRqZ" resname="Le Type de bière a bien été supprimé !">
+        <source>Le Type de bière a bien été supprimé !</source>
+        <target>The Beer type had been deleted !</target>
+      </trans-unit>
+      <trans-unit id="q.OyPic" resname="Guide sur les bières">
+        <source>Guide sur les bières</source>
+        <target>Beer guides</target>
+      </trans-unit>
+      <trans-unit id="7UIzT5R" resname="L'article a bien été ajouté !">
+        <source>L'article a bien été ajouté !</source>
+        <target>The article had been added !</target>
+      </trans-unit>
+      <trans-unit id="0lPCg14" resname="L'article a bien été modifié !">
+        <source>L'article a bien été modifié !</source>
+        <target>The article had been modified !</target>
+      </trans-unit>
+      <trans-unit id=".Gtv8hX" resname="L'article a bien été supprimé !">
+        <source>L'article a bien été supprimé !</source>
+        <target>The article had been deleted !</target>
+      </trans-unit>
+      <trans-unit id="kq5aapM" resname="Liste des Couleurs">
+        <source>Liste des Couleurs</source>
+        <target>List of Colors</target>
+      </trans-unit>
+      <trans-unit id="eLviBqY" resname="Liste des Fabricants">
+        <source>Liste des Fabricants</source>
+        <target>List of Manufacturers</target>
+      </trans-unit>
+      <trans-unit id="tvQCqnl" resname="Modification de Ticket">
+        <source>Modification de Ticket</source>
+        <target>Modification of receipts</target>
+      </trans-unit>
+      <trans-unit id="s2BIFax" resname="Annee">
+        <source>Annee</source>
+        <target>Year</target>
+      </trans-unit>
+      <trans-unit id="GaPHM2y" resname="Numero de Ticket">
+        <source>Numero de Ticket</source>
+        <target>Receipt No</target>
+      </trans-unit>
+      <trans-unit id="DYkba_d" resname="Date de Vente">
+        <source>Date de Vente</source>
+        <target>Date Sold</target>
+      </trans-unit>
+      <trans-unit id="VnqLX49" resname="Ticket">
+        <source>Ticket</source>
+        <target>Receipt</target>
+      </trans-unit>
+      <trans-unit id="VhQI.8p" resname="Année">
+        <source>Année</source>
+        <target>Year</target>
+      </trans-unit>
+      <trans-unit id="DAVEtsC" resname="Numero de ticket">
+        <source>Numero de ticket</source>
+        <target>Ticket No.</target>
+      </trans-unit>
+      <trans-unit id="P0ynmD2" resname="Type de Bière">
+        <source>Type de Bière</source>
+        <target>Beer type</target>
+      </trans-unit>
+      <trans-unit id="sSL1nAD" resname="Type de bière">
+        <source>Type de bière</source>
+        <target>Beer type</target>
+      </trans-unit>
+      <trans-unit id="wA5gWFw" resname="Entréprise Norbeer">
+        <source>Entréprise Norbeer</source>
+        <target>Norbeer Company</target>
+      </trans-unit>
+      <trans-unit id="eFIz35K" resname="Souhaitez vous supprimer cet article?">
+        <source>Souhaitez vous supprimer cet article?</source>
+        <target>Are you sure you want to delete this item?</target>
+      </trans-unit>
+      <trans-unit id="5nZTcNt" resname="Information sur la bière">
+        <source>Information sur la bière</source>
+        <target>Beer details</target>
+      </trans-unit>
+      <trans-unit id="TrgdCPg" resname="Nom de continent :">
+        <source>Nom de continent :</source>
+        <target>Continent's name :</target>
+      </trans-unit>
+      <trans-unit id="93msSCV" resname="SOCIETE NORBEER">
+        <source>SOCIETE NORBEER</source>
+        <target>NORBEER COMPANY</target>
+      </trans-unit>
+      <trans-unit id="r.WiJvG" resname="Nouveau ticket ajouté !">
+        <source>Nouveau ticket ajouté !</source>
+        <target> New ticket added !</target>
+      </trans-unit>
+      <trans-unit id="WwfFFZD" resname="NORBEER">
+        <source>NORBEER</source>
+        <target>NORBEER</target>
+      </trans-unit>
+      <trans-unit id="83ZawCo" resname="Le Ticket a bien été modifié !">
+        <source>Le Ticket a bien été modifié !</source>
+        <target>The ticket had been modified !</target>
+      </trans-unit>
+      <trans-unit id="n.sOWb1" resname="Le Ticket a bien été supprimé !">
+        <source>Le Ticket a bien été supprimé !</source>
+        <target>The Ticket had been deleted !!</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,6 @@
+{{ form_start(form) }}
+    <div class="form-group">
+    {{ form_row(form.nomContinent,{'attr': {'class': 'form-control'}, 'label': 'Nom de continent :'|trans}) }} 
+    </div> <br>
+   <button class="btn btn-dark">{{ button_label|default('Enregistrer' |trans) }}</button>  
+{{ form_end(form) }}

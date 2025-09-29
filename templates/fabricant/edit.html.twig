@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Fabricant{% endblock %}
+
+{% block body %} 
+<div class="beer">    
+<br><br>
+<h2>{% trans %}Modification de Fabricant{% endtrans %}</h2>   <br><br><br>
+
+    
+{{ include('fabricant/_form.html.twig', {'button_label': 'Enregistrer'|trans}) }}
+<br>  
+<a class="btn btn-info" href="{{ path('app_fabricant_index') }}">
+    {% trans %}Retour à la liste{% endtrans %}</a>
+<br> <br>
+    {{ include('fabricant/_delete_form.html.twig') }}  
+    
+    <br>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+{% endblock %}

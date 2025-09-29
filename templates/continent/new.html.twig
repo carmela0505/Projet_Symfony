@@ -1,0 +1,16 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}New Continent{% endblock %}
+
+{% block body %}
+<div class = beer1>
+ <br><br><br> 
+ <h2>{% trans %}Ajouter un nouvel continent{% endtrans %}</h2>   <br>
+<br><br><br><br><br>
+    {{ include('continent/_form.html.twig') }}   
+<br> <br>
+    <a href="{{ path('app_continent_index') }}"><button class="btn btn-info">{% trans %}Retour à la liste{% endtrans %}</button> </a> 
+     <br>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+   </div>
+{% endblock %}

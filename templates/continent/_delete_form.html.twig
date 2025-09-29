@@ -1,0 +1,4 @@
+<form method="post" action="{{ path('app_continent_delete', {'idContinent': continent.idContinent}) }}" onsubmit="return confirm('{% trans %} Souhaitez-vous supprimer ce continent?{% endtrans %}'); ">
+    <input type="hidden" name="_token" value="{{ csrf_token('delete' ~ continent.idContinent) }}">
+     <button class="btn btn-danger">{% trans %}Supprimer{% endtrans %}</button>
+</form>

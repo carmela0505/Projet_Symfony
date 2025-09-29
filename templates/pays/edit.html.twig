@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Pays{% endblock %}
+
+{% block body %} 
+<div class="beer">   <br>
+   <br><br> <h2>{% trans %}Modification de Pays{% endtrans %}</h2>  
+<br><br><br><br>
+    {{ include('pays/_form.html.twig', {'button_label': 'Enregistrer'|trans}) }}  <br>
+
+   <a class="btn btn-info" href="{{ path('app_pays_index') }}">{% trans %}Retour à la liste{% endtrans %}</a>   <br><br>
+    {{ include('pays/_delete_form.html.twig') }}   
+    <br><br><br><br><br><br><br><br><br><br><br><br>
+    </div>
+{% endblock %}
